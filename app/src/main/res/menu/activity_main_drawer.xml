@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 左侧菜单内容 -->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="收藏" />
+        <item
+            android:id="@+id/nav_diagram"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="图形" />
+        <item
+            android:id="@+id/nav_trend"
+            android:icon="@drawable/ic_menu_share"
+            android:title="曲线" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="报表" />
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/ic_menu_send"
+            android:title="视频" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="设置" />
+    </group>
+
+</menu>
